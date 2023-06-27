@@ -6,4 +6,4 @@ pgRouting is a extension from postGIS and its purpose is the calculaton of route
 * routes with restrictions
 * routes between two locations based on distance or traveltime or any other attribute that the user wanst to use
 ## Data source 
-For this example, the  "Nationaal Wegenbestand" ([NWB](https://www.nationaalwegenbestand.nl)) was used as a road network.
+For this example, the  "Nationaal Wegenbestand" ([NWB](https://www.nationaalwegenbestand.nl)) was used as a road network.  This file can be retrieved from this [location](https://downloads.rijkswaterstaatdata.nl/nwb-wegen/geogegevens/shapefile/Nederland_totaal/).This dataset can be uploaded to the database with the help of QGIS or using the shp2pgsql.exec file located in the bin folder from the installation of Postgres \\PostgreSQL\15\bin. 
