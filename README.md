@@ -10,6 +10,7 @@ For this example, the  "Nationaal Wegenbestand" ([NWB](https://www.nationaalwege
 ## Implementation
 The file create_topology_for_routing_NWB.sql has all the necessary queries to install and setup pgRouting on your postgres database. It is assumed that PostGIS has been already installed. Most of hte instructions have been taken from Mikiewics et all (2017).  For more options to optimize the routingfollow this [link].(https://gis-ops.com/pgrouting-speedups/). 
 The final result should look like the one showed in the image below:
+
 ![image](https://github.com/IACZ/Routing-with-pgrouting/assets/8626898/be83802a-e9cb-49d2-ac95-514d97b730a2)
 
 ## References
